@@ -1,0 +1,152 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.redbookrn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/xiaohuli/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/xiaohuli/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+14-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-83
+14-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-80
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-81
+15-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17
+18    <application
+18-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:5:5-24:19
+19        android:name="com.redbookrn.MainApplication"
+19-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:6:7-38
+20        android:allowBackup="false"
+20-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:10:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] /Users/xiaohuli/.gradle/caches/transforms-3/75e4635b66fa4e4e84e71b52579837ce/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:8:7-41
+24        android:label="@string/app_name"
+24-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:7:7-39
+25        android:roundIcon="@mipmap/ic_launcher"
+25-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:9:7-46
+26        android:theme="@style/AppTheme"
+26-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:11:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/debug/AndroidManifest.xml:8:9-44
+28        <activity
+28-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/debug/AndroidManifest.xml:11:9-111
+29            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+29-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/debug/AndroidManifest.xml:11:19-83
+30            android:exported="false" />
+30-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/debug/AndroidManifest.xml:11:84-108
+31        <activity
+31-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:12:7-23:18
+32            android:name="com.redbookrn.MainActivity"
+32-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:13:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+33-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:15:9-118
+34            android:exported="true"
+34-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:18:9-32
+35            android:label="@string/app_name"
+35-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:14:9-41
+36            android:launchMode="singleTask"
+36-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:16:9-40
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:17:9-51
+38            <intent-filter>
+38-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:19:9-22:25
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:20:13-65
+39-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:20:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:21:13-73
+41-->/Users/xiaohuli/Desktop/learn/RedBookRn/android/app/src/main/AndroidManifest.xml:21:23-70
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+46            android:name="com.imagepicker.ImagePickerProvider"
+46-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+47            android:authorities="com.redbookrn.imagepickerprovider"
+47-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
+48            android:exported="false"
+48-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+49            android:grantUriPermissions="true" >
+49-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+50            <meta-data
+50-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+52                android:resource="@xml/imagepicker_provider_paths" />
+52-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+53        </provider>
+54
+55        <meta-data
+55-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:56
+56            android:name="pushy_build_time"
+56-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-44
+57            android:value="@string/pushy_build_time" />
+57-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-53
+58
+59        <provider
+59-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:20
+60            android:name="cn.reactnative.modules.update.PushyFileProvider"
+60-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-75
+61            android:authorities="com.redbookrn.pushy.fileprovider"
+61-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-70
+62            android:exported="false"
+62-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+63            android:grantUriPermissions="true" >
+63-->[:react-native-update] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-update/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-47
+64            <meta-data
+64-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+66                android:resource="@xml/pushy_file_paths" />
+66-->[:react-native-image-picker] /Users/xiaohuli/Desktop/learn/RedBookRn/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+67        </provider>
+68
+69        <meta-data
+69-->[com.facebook.soloader:soloader:0.10.5] /Users/xiaohuli/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+70            android:name="com.facebook.soloader.enabled"
+70-->[com.facebook.soloader:soloader:0.10.5] /Users/xiaohuli/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+71            android:value="false" />
+71-->[com.facebook.soloader:soloader:0.10.5] /Users/xiaohuli/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.0.0] /Users/xiaohuli/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.0.0] /Users/xiaohuli/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+75            android:authorities="com.redbookrn.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.0.0] /Users/xiaohuli/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.0.0] /Users/xiaohuli/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.0.0] /Users/xiaohuli/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.0.0] /Users/xiaohuli/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/xiaohuli/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/xiaohuli/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/xiaohuli/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/xiaohuli/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>
